@@ -5,14 +5,16 @@
     border-radius: 10px;
 }
 
+/* set container width and center it */
 #container {
+    width: 800px;
     margin: 10px auto;
 
 }
 
+/* header and logo */
 #site_header {
     height: 150px;
-    width: 800px;
     background-color: wheat;
     position: relative;
 }
@@ -26,10 +28,7 @@
     left: 20px;
 }
 
-#site_main {
-    width: 800px;
-}
-
+/* space in between sections */
 .hero-image, .title, .articles, #site_footer {
     margin-top: 6px;
 }
@@ -44,10 +43,7 @@
     background-color: lightcoral;
 }
 
-/* .articles {
-    height: 400px;
-} */
-
+/* clearfix rule for float */
 .articles::after {
     content: "";
     display: table;
@@ -71,7 +67,6 @@
 
 #site_footer{
     height: 80px;
-    width: 800px;
     background-color: lightsalmon;
 }
 
